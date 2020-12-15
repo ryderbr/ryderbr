@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Ryder B. JS Website</title>
+<script>
+var goToHTHS = prompt("Do you go to High Tech?", "Yes or No");
+var name = prompt("What is your name?", "Ninja Fortnite Blevins");
+var answer1
+var makeSure = confirm(
+        "Is this correct?:" + "\n" + "You " + answer1 + " go to HTHS." + "\n" + "Your name is " + name + "."
+    )
+function elScript() {
+    goToHTHS;
+    name;
+    if(goToHTHS.toLowerCase() == "yes") {
+    answer1 = "do";
+    } else if (goToHTHS.toLowerCase() == "no") {
+        answer1 = "do not";
+    } else {
+            answer1 = "may or may not";
+    makeSure
+    if(makeSure == false) {
+            location.reload();
+    }
+    }
+}
+elScript;
+</script>
+</head>
+<body>
+
+<h1>Ryder Burgermeister's JavaScript Web Page for RoCo</h1>
+<script>
+        document.body.innerHTML = "<p>Your Information:" + "\n" + "You " + answer1 + " go to HTHS." + "\n" + "Your name is " + name + ".</p>"
+</script>
+<button onclick="location.reload()">Redo Information</button>
+
+</body>
+</html>
