@@ -18,7 +18,7 @@ if(goToHTHS.toLowerCase() === "yes") {
     var answer1 = "may or may not";
 }
 var makeSure = confirm(
-        "Is this correct?:" + "\n" + "You " + answer1 + " go to HTHS." + "\n" + "Your name is " + name + "."
+        "Is this correct?: \n You " + answer1 + " go to HTHS. \n Your name is " + name + "."
     );
 makeSure;
 if(makeSure == false) {
@@ -30,7 +30,7 @@ if(makeSure == false) {
 
 <h1>Ryder Burgermeister's JavaScript Web Page for RoCo</h1>
 <script>
-        document.body.innerHTML = "<p>Your Information:" + "\n" + "You " + answer1 + " go to HTHS." + "\n" + "Your name is " + name + ".</p>"
+        document.body.innerHTML = "<p>Your Information:</p>" + "<p>You " + answer1 + " go to HTHS.</p>" + "<p>Your name is " + name + ".</p>"
 </script>
 <button onclick="location.reload()">Redo Information</button>
 
